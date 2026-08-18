@@ -1,5 +1,69 @@
-.DS_Store
-.idea/
+# ============================================
+# Rust
+# ============================================
+/target/
+**/target/
+Cargo.lock
+*.rs.bk
 
-## Rust
-target/
+# ============================================
+# KMP / Kotlin / JVM
+# ============================================
+**/build/
+**/bin/
+**/out/
+**/generated/
+.idea/
+*.iml
+*.iws
+*.ipr
+.gradle/
+local.properties
+gradle-wrapper.properties
+*.class
+*.log
+*.hprof
+
+# ============================================
+# Android
+# ============================================
+*.apk
+*.ap_
+*.dex
+*.keystore
+*.jks
+**/jniLibs/
+**/src/main/assets/
+google-services.json
+
+# ============================================
+# iOS / macOS
+# ============================================
+**/iosApp/Pods/
+**/iosApp/Podfile.lock
+**/*.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+**/*.xcuserstate
+**/*.xcscmblueprint
+**/DerivedData/
+**/*.dSYM
+**/*.framework/
+**/Frameworks/
+*.DS_Store
+
+# ============================================
+# 通用 / 编辑器 / 系统
+# ============================================
+.env
+.env.*
+*.tmp
+*.swp
+*.swo
+*.pem
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
